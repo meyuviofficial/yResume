@@ -26,11 +26,11 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="container box">
-          <h3 class="title is-3">SKILLS</h3>
-          <Divider />
-          <Skills />
-        </section>
+      </section>
+      <section className="container box">
+        <h3 class="title is-3">SKILLS</h3>
+        <Divider />
+        <Skills />
       </section>
     </div>
   );
