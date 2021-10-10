@@ -11,8 +11,12 @@ function App() {
           <NavigationBar />
         </div>
         <div class="hero-body">
-          <div class="">
-            <Profile />
+          <div class="level">
+            <div clssName="level-left">
+              <div className="level-item">
+                <Profile />
+              </div>
+            </div>
           </div>
         </div>
       </section>
