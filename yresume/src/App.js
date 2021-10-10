@@ -1,25 +1,33 @@
 import "./App.css";
 import NavigationBar from "./Components/TopNavigationBarComponent";
 import Profile from "./Components/ProfileComponent";
-import Skills from "./Components/AboutMeComponent";
+import AboutMe from "./Components/AboutMeComponent";
+import Skills from "./Components/SkillsComponent";
 import "react-bulma-components";
 import "bulma/css/bulma.min.css";
 
 function App() {
   return (
     <div className="App">
-      <NavigationBar />
-      <section className="container">
-        <div className="section">
-          <div className="columns is-mobile">
-            <div className="column">
-              <Profile />
-            </div>
-            <div className="column is-two-thirds">
-              <Skills />
+        <NavigationBar />
+      <section className="section">
+        <section className="container box">
+          <div className="section">
+            <div className="columns is-mobile">
+              <div className="column">
+                <Profile />
+              </div>
+              <div className="column is-two-thirds">
+                <AboutMe />
+              </div>
             </div>
           </div>
-        </div>
+        </section>
+        <section className="container box">
+          <div className="section">
+            <Skills />
+          </div>
+        </section>
       </section>
     </div>
   );

@@ -1,12 +1,9 @@
 import React from "react";
+import "bulma/css/bulma.min.css";
 
 const SkillsComponent = () => (
-  <div>
+  <div className="content">
     <article class="message is-dark">
-      {/* <div class="message-header">
-        <h3 class="title is-4 has-text-white">Title 3</h3>
-        <button class="delete" aria-label="delete"></button>
-      </div> */}
       <div class="message-body is-size-5">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
         <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta
