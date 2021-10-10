@@ -4,7 +4,7 @@ import { Navbar } from "react-bulma-components";
 
 function TopNavBar() {
   return (
-    <Navbar className="is-fixed-top">
+    <Navbar className="is-black is-fixed-top">
       <Navbar.Container>
         <Navbar.Item href="#">HOME</Navbar.Item>
         <Navbar.Item href="#">ABOUT ME</Navbar.Item>
