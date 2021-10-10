@@ -6,14 +6,14 @@ import Profile from "./Components/ProfileComponent";
 function App() {
   return (
     <div className="App">
-      <section class="section">
-        <div className="container is-widescreen">
+      <section class="hero is-black is-fullheight">
+        <div className="hero-head">
           <NavigationBar />
         </div>
-      </section>
-      <section className="section is-medium">
-        <div className="block ">
-          <Profile />
+        <div class="hero-body">
+          <div class="">
+            <Profile />
+          </div>
         </div>
       </section>
     </div>
