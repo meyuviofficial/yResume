@@ -1,11 +1,10 @@
 import React from "react";
 import "bulma/css/bulma.min.css";
 import { Form } from "react-bulma-components";
-import { Progress } from "semantic-ui-react";
+import { Progress, Divider } from "semantic-ui-react";
 
 const SkillsComponent = () => (
   <div class="container">
-    <h3 class="title is-3">SKILLS</h3>
     <fieldset disabled>
       <div class="field">
         <label class="label">AZURE</label>

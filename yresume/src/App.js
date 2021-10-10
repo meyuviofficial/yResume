@@ -27,9 +27,9 @@ function App() {
           </div>
         </section>
         <section className="container box">
-          <div className="section">
-            <Skills />
-          </div>
+          <h3 class="title is-3">SKILLS</h3>
+          <Divider />
+          <Skills />
         </section>
       </section>
     </div>
