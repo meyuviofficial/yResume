@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import NavigationBar from "./Components/TopNavBar";
 import Profile from "./Components/ProfileComponent";
@@ -13,7 +12,7 @@ function App() {
             <NavigationBar />
           </section>
         </div>
-        <div className="hero-body">
+        <div className="hero-body container">
           <section class="section">
             <section class="columns">
               <div class="column">

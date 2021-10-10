@@ -1,7 +1,7 @@
 import React from "react";
 import ProfilePicture from "../img/profile.jpg";
 import "semantic-ui-css/semantic.min.css";
-import { Card, Icon, Image } from 'semantic-ui-react'
+import { Card, Image } from 'semantic-ui-react'
 // function ProfileComponent() {
 //   return <Image src={ProfilePicture} size="medium" circular />;
 // }
@@ -17,7 +17,7 @@ const ProfileComponent = () => (
         <span className='date'>2019-PRESENT</span>
       </Card.Meta>
       <Card.Description>
-        SOFTWARE ENGINEER AT SHELL
+        <b>SOFTWARE ENGINEER</b> AT SHELL
       </Card.Description>
     </Card.Content>
   </Card>
