@@ -1,7 +1,7 @@
 import "./App.css";
 import NavigationBar from "./Components/TopNavigationBarComponent";
 import Profile from "./Components/ProfileComponent";
-import Skills from "./Components/SkillsComponent";
+import Skills from "./Components/AboutMeComponent";
 import "react-bulma-components";
 import "bulma/css/bulma.min.css";
 
