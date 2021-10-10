@@ -1,25 +1,16 @@
-import React from 'react'
-import { Card, Icon, Image } from 'semantic-ui-react'
+import React from "react";
+import { Progress, Segment } from "semantic-ui-react";
 
-const CardExampleCard = () => (
-  <Card>
-    <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' wrapped ui={false} />
-    <Card.Content>
-      <Card.Header>Matthew</Card.Header>
-      <Card.Meta>
-        <span className='date'>Joined in 2015</span>
-      </Card.Meta>
-      <Card.Description>
-        Matthew is a musician living in Nashville.
-      </Card.Description>
-    </Card.Content>
-    <Card.Content extra>
-      <a>
-        <Icon name='user' />
-        22 Friends
-      </a>
-    </Card.Content>
-  </Card>
-)
+const SkillsComponent = () => (
+  <Segment inverted>
+    <Progress percent={85} inverted color="blue" progress />
+    <Progress percent={38} inverted color="violet" progress />
+    <Progress percent={47} inverted color="purple" progress />
+    <Progress percent={29} inverted color="pink" progress />
+    <Progress percent={68} inverted color="brown" progress />
+    <Progress percent={36} inverted color="grey" progress />
+    <Progress percent={72} inverted color="black" progress />
+  </Segment>
+);
 
-export default CardExampleCard
+export default SkillsComponent;

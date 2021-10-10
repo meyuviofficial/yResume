@@ -2,30 +2,23 @@ import logo from "./logo.svg";
 import "./App.css";
 import NavigationBar from "./Components/TopNavBar";
 import Profile from "./Components/ProfileComponent";
+import Skills from "./Components/SkillsComponent";
 
 function App() {
   return (
     <div className="App">
-      <section class="hero is-black is-fullheight">
-        <div className="hero-head">
-          <NavigationBar />
-        </div>
-        <div class="hero-body">
-          <section>
-            <div class="level">
-              <div clssName="level-left">
-                <div className="level-item">
-                  <Profile />
-                </div>
-              </div>
-              <div clssName="level-right">
-                <div className="level-item">
-                  {/* <Profile /> */}
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
+      <section class="section">
+        <NavigationBar />
+      </section>
+      <section class="section">
+        <section class="columns">
+          <div class="column">
+            <Profile />
+          </div>
+          <div class="column is-three-quarters">
+            <Skills />
+          </div>
+        </section>
       </section>
     </div>
   );
