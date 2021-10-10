@@ -7,18 +7,24 @@ import Skills from "./Components/SkillsComponent";
 function App() {
   return (
     <div className="App">
-      <section class="section">
-        <NavigationBar />
-      </section>
-      <section class="section">
-        <section class="columns">
-          <div class="column">
-            <Profile />
-          </div>
-          <div class="column is-three-quarters">
-            <Skills />
-          </div>
-        </section>
+      <section clasName="hero is-fullheight-with-navbar">
+        <div className="hero-head">
+          <section class="section">
+            <NavigationBar />
+          </section>
+        </div>
+        <div className="hero-body">
+          <section class="section">
+            <section class="columns">
+              <div class="column">
+                <Profile />
+              </div>
+              <div class="column is-three-quarters">
+                <Skills />
+              </div>
+            </section>
+          </section>
+        </div>
       </section>
     </div>
   );
