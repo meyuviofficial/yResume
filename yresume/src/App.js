@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
       <NavigationBar />
-      <section className="section">
-        <div className="container">
+      <section className="container">
+        <div className="section">
           <div className="columns is-mobile">
             <div className="column">
               <Profile />
