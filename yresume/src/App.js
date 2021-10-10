@@ -5,14 +5,16 @@ import AboutMe from "./Components/AboutMeComponent";
 import Skills from "./Components/SkillsComponent";
 import "react-bulma-components";
 import "bulma/css/bulma.min.css";
+import { Divider } from "semantic-ui-react";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App has-background-black">
       <NavigationBar />
-      <section className="section has-background-black">
+      <section className="section">
         <section className="container box">
           <h3 class="title is-3">ABOUT ME</h3>
+          <Divider />
           <div className="section">
             <div className="columns is-mobile">
               <div className="column">
