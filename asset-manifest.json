@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/yResume/static/css/main.a617e044.chunk.css",
-    "main.js": "/yResume/static/js/main.7d9afe10.chunk.js",
-    "main.js.map": "/yResume/static/js/main.7d9afe10.chunk.js.map",
-    "runtime-main.js": "/yResume/static/js/runtime-main.1827851d.js",
-    "runtime-main.js.map": "/yResume/static/js/runtime-main.1827851d.js.map",
-    "static/css/2.e7e8bc3e.chunk.css": "/yResume/static/css/2.e7e8bc3e.chunk.css",
-    "static/js/2.9938c414.chunk.js": "/yResume/static/js/2.9938c414.chunk.js",
-    "static/js/2.9938c414.chunk.js.map": "/yResume/static/js/2.9938c414.chunk.js.map",
-    "static/js/3.3ab030b1.chunk.js": "/yResume/static/js/3.3ab030b1.chunk.js",
-    "static/js/3.3ab030b1.chunk.js.map": "/yResume/static/js/3.3ab030b1.chunk.js.map",
+    "main.js": "/yResume/static/js/main.b118d758.chunk.js",
+    "main.js.map": "/yResume/static/js/main.b118d758.chunk.js.map",
+    "runtime-main.js": "/yResume/static/js/runtime-main.d1914c4c.js",
+    "runtime-main.js.map": "/yResume/static/js/runtime-main.d1914c4c.js.map",
+    "static/css/2.5be67ca7.chunk.css": "/yResume/static/css/2.5be67ca7.chunk.css",
+    "static/js/2.91cf73c1.chunk.js": "/yResume/static/js/2.91cf73c1.chunk.js",
+    "static/js/2.91cf73c1.chunk.js.map": "/yResume/static/js/2.91cf73c1.chunk.js.map",
+    "static/js/3.e80bee37.chunk.js": "/yResume/static/js/3.e80bee37.chunk.js",
+    "static/js/3.e80bee37.chunk.js.map": "/yResume/static/js/3.e80bee37.chunk.js.map",
     "index.html": "/yResume/index.html",
-    "static/css/2.e7e8bc3e.chunk.css.map": "/yResume/static/css/2.e7e8bc3e.chunk.css.map",
+    "static/css/2.5be67ca7.chunk.css.map": "/yResume/static/css/2.5be67ca7.chunk.css.map",
     "static/css/main.a617e044.chunk.css.map": "/yResume/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.9938c414.chunk.js.LICENSE.txt": "/yResume/static/js/2.9938c414.chunk.js.LICENSE.txt",
+    "static/js/2.91cf73c1.chunk.js.LICENSE.txt": "/yResume/static/js/2.91cf73c1.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/yResume/static/media/outline-icons.ddae9b1b.woff",
     "static/media/profile.73703b89.jpg": "/yResume/static/media/profile.73703b89.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1827851d.js",
-    "static/css/2.e7e8bc3e.chunk.css",
-    "static/js/2.9938c414.chunk.js",
+    "static/js/runtime-main.d1914c4c.js",
+    "static/css/2.5be67ca7.chunk.css",
+    "static/js/2.91cf73c1.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.7d9afe10.chunk.js"
+    "static/js/main.b118d758.chunk.js"
   ]
 }
