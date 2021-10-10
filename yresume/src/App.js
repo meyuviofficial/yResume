@@ -11,13 +11,20 @@ function App() {
           <NavigationBar />
         </div>
         <div class="hero-body">
-          <div class="level">
-            <div clssName="level-left">
-              <div className="level-item">
-                <Profile />
+          <section>
+            <div class="level">
+              <div clssName="level-left">
+                <div className="level-item">
+                  <Profile />
+                </div>
+              </div>
+              <div clssName="level-right">
+                <div className="level-item">
+                  {/* <Profile /> */}
+                </div>
               </div>
             </div>
-          </div>
+          </section>
         </div>
       </section>
     </div>

@@ -1,10 +1,26 @@
 import React from "react";
 import ProfilePicture from "../img/profile.jpg";
-import { Image } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
+import { Card, Icon, Image } from 'semantic-ui-react'
+// function ProfileComponent() {
+//   return <Image src={ProfilePicture} size="medium" circular />;
+// }
 
-function ProfileComponent() {
-  return <Image src={ProfilePicture} size="medium" circular />;
-}
+
+
+const ProfileComponent = () => (
+  <Card>
+    <Image src={ProfilePicture} wrapped ui={false} />
+    <Card.Content>
+      <Card.Header>Yuvaraj Selvarajan</Card.Header>
+      <Card.Meta>
+        <span className='date'>2019-PRESENT</span>
+      </Card.Meta>
+      <Card.Description>
+        SOFTWARE ENGINEER AT SHELL
+      </Card.Description>
+    </Card.Content>
+  </Card>
+)
 
 export default ProfileComponent;
