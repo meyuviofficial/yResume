@@ -9,9 +9,10 @@ import "bulma/css/bulma.min.css";
 function App() {
   return (
     <div className="App">
-        <NavigationBar />
-      <section className="section">
+      <NavigationBar />
+      <section className="section has-background-black">
         <section className="container box">
+          <h3 class="title is-3">ABOUT ME</h3>
           <div className="section">
             <div className="columns is-mobile">
               <div className="column">
