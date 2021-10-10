@@ -1,5 +1,5 @@
 import "./App.css";
-import NavigationBar from "./Components/TopNavBar";
+import NavigationBar from "./Components/TopNavigationBarComponent";
 import Profile from "./Components/ProfileComponent";
 import Skills from "./Components/SkillsComponent";
 
